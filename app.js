@@ -20,3 +20,5 @@ app.get('/tasks/:id', (req, res) => {
 
 const PORT = 3000;
 app.listen(PORT, () => console.log(`API is running on port: http://localhost:${PORT}`));
+
+module.exports = app;
