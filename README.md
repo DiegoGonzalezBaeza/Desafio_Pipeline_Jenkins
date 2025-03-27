@@ -8,7 +8,10 @@ This project demonstrates a simple Node.js API for managing tasks, integrated wi
 - Get task by ID
 
 ## Running Locally
-
+instalacion de dependencia de devDependencies
+'''bash
+npm install jest supertest eslint -D
+'''
 1. Install dependencies: `npm install`  
 2. Start the server: `npm start`
 
