@@ -43,8 +43,8 @@ pipeline {
             steps { 
                 script { 
                     try { 
-                        echo "🚀 Desplegando aplicación..." 
-                        bat 'npm start &' 
+                        echo "🐳 Construyendo imagen Docker..." 
+                        bat 'docker build -t desafio-pipeline:latest .' 
                     } catch (Exception e) { 
                         error("❌ Error en la etapa de Deploy") 
                     } 
