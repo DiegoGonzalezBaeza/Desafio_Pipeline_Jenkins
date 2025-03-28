@@ -1,3 +1,6 @@
+## Ejecución del Pipeline en Jenkins
+
+```text
 Started by user Diego Gonzalez
 Obtained Jenkinsfile from git https://github.com/DiegoGonzalezBaeza/Desafio_Pipeline_Jenkins
 [Pipeline] Start of Pipeline
@@ -237,3 +240,4 @@ C:\ProgramData\Jenkins\.jenkins\workspace\Desafio_Pipeline>docker build -t desaf
 [Pipeline] // node
 [Pipeline] End of Pipeline
 Finished: SUCCESS
+```
